@@ -1,0 +1,20 @@
+create function dept_count(dept_name varchar(20))
+	returns integer
+	begin
+	declare a_count integer;
+		seclect count(*) into a_count
+		from instructor
+		where instructor.dept_name = dept_name;
+	return a_count
+end; 
+
+sql
+
+CREATE FUNCTION AVERAGE_SALARY(A_dept_name varchar2)
+	return float
+BEGIN
+	select avg(salary) into avg_salary
+	from instructor 
+	where dept_name = A_dept_name GROUP BY dept_name;
+	return ( avg_salary);
+end;
