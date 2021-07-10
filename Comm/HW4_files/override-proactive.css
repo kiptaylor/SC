@@ -1,0 +1,206 @@
+.eesy-tab2:focus {
+  outline: 3px;
+}
+
+.eesy-tab2-container {
+  bottom: auto;
+  right: 360px;
+  top: 25px;
+  position: fixed;
+}
+
+.eesy-tab2-btn {
+    border-radius: 0px;
+    max-width: 250px;
+    opacity: 1;
+    height: 25px;
+}
+
+.eesy-tab2-btn-text {
+    opacity: 1;
+    visibility: visible;
+    font-size: 12px;
+    font-family: "Open Sans",sans-serif;
+    font-weight: normal;
+    padding-top: 4px;
+}
+
+.eesy-tab2.eesy-tab2-btn {
+    color: #003976;
+    background-color: #ffffff;
+    border: 1px solid #003976;
+    box-shadow: 1px 10px 18px 0px rgba(0,0,0,0.32);
+}
+
+.eesy-tab2.eesy-tab2-btn:hover {
+    background-color: #efab00;
+}
+
+.eesy-tab2-btn-icon {
+    font-size: 20px;
+    top: 1px;
+}
+
+.eesy-tab2-btn-icon i {
+    color: #efab00;
+}
+
+.eesy-tab2.eesy-tab2-btn:hover .eesy-tab2-btn-icon i {
+    color: #003976;
+}
+
+@media only screen and (max-width: 400px) and (min-width: 320px) {
+.eesy-tab2-container {
+  right: auto;
+  left: 95px;
+  position: fixed;
+}
+
+.eesy-tab2-btn, .eesy-tab2-btn:hover, .eesy-tab2-btn.eesy_draggable {
+ max-width: 44px; 
+}
+
+.eesy-tab2-btn .eesy-tab2-btn-text, .eesy-tab2-btn:hover .eesy-tab2-btn-text, .eesy-tab2-btn.eesy_draggable .eesy-tab2-btn-text {
+  visibility:hidden;
+}
+}
+
+.eesy__modal-scope .layout__header, .eesy__modal-scope .eesy__footer {
+  background-color: #003976;
+  }
+
+.eesy__modal-scope .article .embed-HtmlCode {
+  overflow: hidden !important; 
+}
+
+.eesy__modal-scope .section.___primary {
+  background-color: #003976;
+} 
+
+.eesy__modal-scope .header__close:before {
+  color: white !important;
+}
+
+.eesy__modal-scope .header__back:before {
+  color: white !important;
+}
+
+.eesy__modal-scope .filter__category, .eesy__modal-scope .filter__category:hover {
+  background-color: #0073BD;
+}
+
+.eesy__modal-scope .filter__category.___is-selected,
+.eesy__modal-scope .filter__category:focus, .eesy__modal-scope .filter__category.___is-selected:focus {
+  background-color: #EFAB00;
+  color: #003976;
+}
+
+.eesy__modal-scope .header__search:before {
+  color: #333333 !important;
+}
+
+.eesy__modal-scope .contact__button {
+  border-style: solid !important;
+  border-color: #EFAB00;
+  border-width: 1px !important;
+  color: #003976;
+}
+
+.eesy__modal-scope .contact__button.___email:after {
+  content: url(https://kentstaging.eesysoft.com/resources/images/email-kent.png);
+  color: #EFAB00;
+  font-size: 17.0625px !important;
+}
+
+.eesy__modal-scope .contact__button.___call:after {
+  content: url(https://kentstaging.eesysoft.com/resources/images/phone-kent.png);
+  color: #EFAB00;
+  font-size: 24.375px !important;
+}
+.eesy__modal-scope .contact__button.___chat:after {
+  content: url(https://kentstaging.eesysoft.com/resources/images/chat-kent.png);
+  color: #EFAB00;
+}
+
+
+
+.eesy__modal-scope .results__cat.___kent:before {
+  content: url(https://kentstaging.eesysoft.com/resources/images/icon-kent.png) !important;
+}
+
+.eesy__modal-scope .results__show-all,
+.eesy__modal-scope .article a {
+  color: #003976;
+}
+
+.eesy__modal-scope .results__result,
+.eesy__modal-scope .results__cat:before,
+.eesy__modal-scope .results__vote-up:before,
+.eesy__modal-scope .results__vote-down:before,
+.eesy__modal-scope .section__title.___light,
+.eesy__modal-scope .contact__text {
+  color: #333 !important;
+}
+
+.eesy__modal-scope .tag.___is-selected {
+  background-color: #003976;
+  border-color: #003976;
+}
+
+.eesy__modal-scope .header__back:focus, 
+.eesy__modal-scope .header__close:focus {
+  background-color: #333;
+}
+
+/* messaging */
+
+.eesy_container_v2 .eesy_standard_hide,
+.eesy_container_v2 .eesy_systray_hide,
+.eesy_container_v2 .eesy_hint_hide,
+.eesy_container_v2 .eesy_hintfixed_dontshowanymore,
+.eesy__modal-scope .eesy__modal__box.standalone .eesy_hint_hide,
+.eesy__modal-scope .eesy__modal__box.standalone .eesy_hint_close:hover,
+.eesy__modal-scope .eesy__modal__box.standalone .eesy_hint_close:hover .eesy_hint_close_text {
+    color: #003976;
+    border-color:  #003976;
+    }
+
+.eesy_container_v2 .eesy_close,
+.eesy_container_v2 .eesy_systray_close,
+.eesy_container_v2 .eesy_hint_close,
+.eesy_container_v2 .eesy_standard_hide:hover,
+.eesy_container_v2 .eesy_systray_hide:hover,
+.eesy_container_v2 .eesy_hint_hide:hover,
+.eesy_container_v2 .eesy_hintfixed_dontshowanymore:hover,
+.eesy__modal-scope .eesy__modal__box.standalone .eesy_hint_hide:hover,
+.eesy__modal-scope .eesy__modal__box.standalone .eesy_hint_close {
+    background: #003976;
+}
+
+.eesy_container_v2 .eesy_close:hover,
+.eesy_container_v2 .eesy_systray_close:hover,
+.eesy_container_v2 .eesy_hint_close:hover {
+    border-color: #003976;
+}
+
+.eesy_container_v2 .eesy_header,
+.eesy__modal-scope .eesy__modal__box.standalone .article-title,
+.eesy_container_v2 .eesy_systray_header,
+.eesy_container_v2 .eesy_hint_header,
+.eesy_container_v2 .eesy_close:hover .eesy_close_text,
+.eesy_container_v2 .eesy_systray_close:hover .eesy_systray_close_text,
+.eesy_container_v2 .eesy_hintfixed_close:hover .eesy_hintfixed_close_text,
+.eesy_container_v2 .eesy_hint_close:hover .eesy_hint_close_text,
+.eesy_container_v2 a,
+.eesy__modal-scope .eesy__modal__box.standalone .eesy_hint_hide_text {
+    color: #003976;
+}
+
+.eesy__modal-scope .eesy__modal__box.standalone {
+  width: 896.88px;
+}
+
+/* Hide dont show again */
+[data-helpitemid="2590"].eesy_container_v4 .eesy_dontshowanymore {
+  display: none;
+}
